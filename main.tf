@@ -7,5 +7,5 @@ resource "azurerm_storage_account" "storage_account" {
   account_kind              = "StorageV2"
   allow_blob_public_access  = false
   enable_https_traffic_only = true
-  tags                      = Var.TAGS
+  tags                      = var.TAGS
 }
